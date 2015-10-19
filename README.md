@@ -1,14 +1,13 @@
 # Recorderx
 
+A simple library to record audio using HTML5 Audio API.
 ___
 
-A simple library to record audio using HTML5 Audio API.
-
-It has a depends on [RecorderJS](https://github.com/mattdiamond/Recorderjs) and jQuery.
+It depends on [RecorderJS](https://github.com/mattdiamond/Recorderjs) and jQuery.
 
 To start using it:
 
-1. Add the following lines to your index.html file:
+Add the following lines to your index.html file:
 ```
 <script src="path/to/jquery.js"></script>
 <script src="path/to/recorder.js"></script>
@@ -16,7 +15,7 @@ To start using it:
 ```
 Make sure to add the correct path to your js files.
 
-2. Somewhere in your index.html create an instance of Recorderx:
+Somewhere in your index.html create an instance of Recorderx:
 ```
 var recorderx;
 jQuery(document).ready(function() {
@@ -25,7 +24,7 @@ jQuery(document).ready(function() {
 ```
 The parameter passed to the Recorderx class is the audio element where the recording is going to be loaded.
 
-2. Add an audio element inside your index.html as well as the buttons to handle start and stop.
+Add an audio element inside your index.html as well as the buttons to handle start and stop.
 ```
 <input onclick="recorderx.startRecording()" type="button" value="Start"/>
 <input onclick="recorderx.stopRecording()" type="button" value="Stop"/>
@@ -33,8 +32,7 @@ The parameter passed to the Recorderx class is the audio element where the recor
 ```
 
 That's it!
-
-__
+___
 
 To test the example in here just clone the repo and do:
 ```
@@ -47,7 +45,6 @@ python -m SimpleHTTPServer
 ```
 
 ------
-
 
 The MIT License (MIT)
 
