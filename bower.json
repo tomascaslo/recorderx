@@ -1,0 +1,26 @@
+{
+  "name": "recorderx",
+  "version": "0.0.1",
+  "authors": [
+    "tomascaslo <tomas.caslo90@gmail.com>"
+  ],
+  "description": "A simple library to record audio using HTML5 Audio API.",
+  "main": "recorderx.js",
+  "keywords": [
+    "recorder",
+    "html5",
+    "audio"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "Recorderjs": "https://github.com/mattdiamond/Recorderjs.git"
+  }
+}

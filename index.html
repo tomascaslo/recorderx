@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Recorderx</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div>
+            <input onclick="recorderx.startRecording()" type="button" value="Start" class="start-button"/>
+        </div>
+        <div>
+            <input onclick="recorderx.stopRecording()" type="button" value="Stop" class="stop-button"/>
+        </div>
+        <audio id="myRecording" controls></audio>
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/Recorderjs/recorder.js"></script>
+        <script src="recorderx.js"></script>
+
+        <script type="application/javascript">
+            var recorderx;
+            jQuery(document).ready(function() {
+                recorderx = new Recorderx('audio#myRecording');
+            });
+        </script>
+    </body>
+</html>

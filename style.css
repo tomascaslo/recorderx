@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+}
+
+input[type="button"] {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 10px;
+    padding: 20px;
+    border: 0;
+    border-radius: 10px;
+}
+
+input[type="button"]:hover {
+    cursor: pointer;
+}
+
+.start-button {
+    background-color: #00e500;
+ }
+
+.start-button:hover {
+    background-color: #007f00;
+}
+
+.stop-button {
+    background-color: #e50000;
+}
+
+.stop-button:hover {
+    background-color: #7f0000;
+}
